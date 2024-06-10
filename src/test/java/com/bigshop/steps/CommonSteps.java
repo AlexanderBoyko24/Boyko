@@ -26,5 +26,4 @@ public class CommonSteps {
                 .as("The title of main page is not displayed")
                 .isTrue();
     }
-
 }

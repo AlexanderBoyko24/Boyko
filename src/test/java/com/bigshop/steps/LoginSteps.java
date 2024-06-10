@@ -12,15 +12,9 @@ public class LoginSteps {
     private final LoginPage loginPage;
     private final MainPage mainPage;
 
-    public void login(String username, String password){
+    public void login(String username, String password) {
         log.info("user logs in to app with username and password");
         loginPage.login(username, password);
     }
-
-    public void logout() {
-        log.info("user logs out from app ");
-       mainPage.logout();
-    }
-
 
 }
