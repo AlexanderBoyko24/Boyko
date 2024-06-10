@@ -36,6 +36,11 @@ public class TestHook {
         }
     }
 
+    @After(order = 1)
+    public void afterScenario(Scenario scenario){
+        log.info("Finish scenario:{}", scenario.getName());
+    }
+
 
     //value = "@Stop" всунуть в @After в скобки "@After(value = "@Stop")
     @After

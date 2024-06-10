@@ -15,9 +15,3 @@ Feature: Login with valid credentials
       | boykoalex2211@gmail.com | james221191|
 
 
-
- #@Stop
-   #Scenario: Logout from app
-   #Given the user is logged in
-  #When  the user logs out
-  #Then the app login page is open

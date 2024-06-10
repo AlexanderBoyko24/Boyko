@@ -19,5 +19,4 @@ public class CommonDefinitions {
     public void theUserIsLoggedIn() {
         commonSteps.checkUserLoggedIn();
     }
-
-  }
+}
